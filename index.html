@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo de Fútbol 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">⚽ Torneo de Fútbol 2024</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#partidos">Partidos</a></li>
+                <li><a href="#tabla">Tabla de Posiciones</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido al Torneo de Fútbol 2024</h1>
+            <p>¡El evento deportivo del año!</p>
+            <button class="btn-primary" onclick="scrollToSection('equipos')">Ver Equipos</button>
+        </div>
+    </section>
+
+    <section id="equipos" class="equipos">
+        <div class="container">
+            <h2>Equipos Participantes</h2>
+            <div class="equipos-grid">
+                <div class="equipo-card">
+                    <div class="equipo-escudo">⚽</div>
+                    <h3>Águilas FC</h3>
+                    <p>País: México</p>
+                    <p>Entrenador: Juan García</p>
+                </div>
+                <div class="equipo-card">
+                    <div class="equipo-escudo">⚽</div>
+                    <h3>Dragones United</h3>
+                    <p>País: España</p>
+                    <p>Entrenador: Carlos López</p>
+                </div>
+                <div class="equipo-card">
+                    <div class="equipo-escudo">⚽</div>
+                    <h3>Leones Dorados</h3>
+                    <p>País: Argentina</p>
+                    <p>Entrenador: Miguel Rodríguez</p>
+                </div>
+                <div class="equipo-card">
+                    <div class="equipo-escudo">⚽</div>
+                    <h3>Tigres FC</h3>
+                    <p>País: Brasil</p>
+                    <p>Entrenador: Silva Santos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partidos" class="partidos">
+        <div class="container">
+            <h2>Próximos Partidos</h2>
+            <div class="partidos-container">
+                <div class="partido-card">
+                    <div class="partido-equipo local">
+                        <h4>Águilas FC</h4>
+                        <p class="golesLocal">0</p>
+                    </div>
+                    <div class="partido-vs">
+                        <p>VS</p>
+                        <span class="fecha">25 May 2024</span>
+                        <span class="hora">15:00</span>
+                    </div>
+                    <div class="partido-equipo visitante">
+                        <h4>Dragones United</h4>
+                        <p class="golesVisitante">0</p>
+                    </div>
+                </div>
+
+                <div class="partido-card">
+                    <div class="partido-equipo local">
+                        <h4>Leones Dorados</h4>
+                        <p class="golesLocal">2</p>
+                    </div>
+                    <div class="partido-vs">
+                        <p>VS</p>
+                        <span class="fecha">26 May 2024</span>
+                        <span class="hora">16:00</span>
+                    </div>
+                    <div class="partido-equipo visitante">
+                        <h4>Tigres FC</h4>
+                        <p class="golesVisitante">1</p>
+                    </div>
+                </div>
+
+                <div class="partido-card">
+                    <div class="partido-equipo local">
+                        <h4>Águilas FC</h4>
+                        <p class="golesLocal">1</p>
+                    </div>
+                    <div class="partido-vs">
+                        <p>VS</p>
+                        <span class="fecha">27 May 2024</span>
+                        <span class="hora">14:00</span>
+                    </div>
+                    <div class="partido-equipo visitante">
+                        <h4>Leones Dorados</h4>
+                        <p class="golesVisitante">3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tabla" class="tabla-posiciones">
+        <div class="container">
+            <h2>Tabla de Posiciones</h2>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>PJ</th>
+                        <th>G</th>
+                        <th>E</th>
+                        <th>P</th>
+                        <th>GF</th>
+                        <th>GC</th>
+                        <th>Pts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Leones Dorados</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tigres FC</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Águilas FC</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Dragones United</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-buttons" aria-label="Redes sociales">
+                <a href="https://www.facebook.com/" class="social-btn facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.2v-2.9h2.2V9.3c0-2.2 1.3-3.4 3.3-3.4.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.5h2.3l-.4 2.9h-1.9v7A10 10 0 0 0 22 12z"/>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/" class="social-btn twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M7.5 21c7.2 0 11.1-6 11.1-11.1v-.5A7.9 7.9 0 0 0 21 7.1a7.6 7.6 0 0 1-2.2.6 3.8 3.8 0 0 0 1.7-2.1 7.6 7.6 0 0 1-2.4.9A3.8 3.8 0 0 0 11 9.6a10.8 10.8 0 0 1-7.8-4 3.8 3.8 0 0 0 1.2 5.1A3.7 3.7 0 0 1 3 10.9v.05a3.8 3.8 0 0 0 3 3.7 3.8 3.8 0 0 1-1 .1c-.2 0-.5 0-.7-.07a3.8 3.8 0 0 0 3.6 2.6A7.6 7.6 0 0 1 3 18.4a10.8 10.8 0 0 0 4.5 1.3"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/" class="social-btn instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                        <circle cx="12" cy="12" r="3.2"></circle>
+                        <circle cx="17.5" cy="6.5" r="0.8"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/" class="social-btn youtube" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M23 7.1s-.2-1.6-.8-2.3c-.8-.9-1.7-.9-2.1-1C16.6 3.5 12 3.5 12 3.5h-.1s-4.6 0-7.9.3c-.4 0-1.3.1-2.1 1C1.2 5.5 1 7.1 1 7.1S1 9 1 10.9v2.2C1 16 1.2 17.9 1.2 17.9s.2 1.6.8 2.3c.8.9 1.8.9 2.3 1 1.6.2 6.7.3 6.7.3s4.6 0 7.9-.3c.4 0 1.3-.1 2.1-1 .6-.7.8-2.3.8-2.3s.2-1.9.2-3.8v-2.2C23 9 23 7.1 23 7.1zM9.8 15.5V8.5l6.2 3.5-6.2 3.5z"/>
+                    </svg>
+                </a>
+            </div>
+            <p>&copy; 2024 Torneo de Fútbol. Todos los derechos reservados.</p>
+            <p>Contáctanos: info@torneodefutbol.com | Teléfono: +34 900 123 456</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
